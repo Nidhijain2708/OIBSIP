@@ -1,0 +1,129 @@
+.container{
+    display: grid;
+    grid-template-rows: repeat(7,40px);
+    grid-template-columns: repeat(4, 50px);
+    /* border: 1px solid black; */
+    grid-template-areas: 
+    "el1 el1 el1 el1"
+    "el1 el1 el1 el1"
+    "el2 el3 el4 el5"
+    "el6 el7 el8 el9"
+    "el10 el11 el12 el13"
+    "el14 el15 el16 el17"
+    "el18 el19 el20 el21";
+}
+
+.el-1{
+    grid-area: el1;
+}
+
+.el-2{
+    grid-area: el2;
+}
+
+.el-3{
+    grid-area: el3;
+}
+
+.el-4{
+    grid-area: el4;
+}
+
+.el-5{
+    grid-area: el5;
+}
+
+.el-6{
+    grid-area: el6;
+}
+
+.el-7{
+    grid-area: el7;
+}
+
+.el-8{
+    grid-area: el8;
+}
+
+.el-9{
+    grid-area: el9;
+}
+
+.el-10{
+    grid-area: el10;
+}
+
+.el-11{
+    grid-area: el11;
+}
+
+.el-12{
+    grid-area: el12;
+}
+
+.el-13{
+    grid-area: el13;
+}
+
+.el-14{
+    grid-area: el14;
+}
+
+.el-15{
+    grid-area: el15;
+}
+
+.el-16{
+    grid-area: el16;
+}
+
+.el-17{
+    grid-area: el17;
+}
+
+.el-18{
+    grid-area: el18;
+}
+
+.el-19{
+    grid-area: el19;
+}
+
+.el-20{
+    grid-area: el20;
+}
+
+.el-21{
+    grid-area: el21;
+}
+
+.el{
+    margin: 5px;
+    border-radius: 10px;
+    color: darkblue;
+    font-weight: 400;
+    font-size: 15px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+form{
+    margin: 40px auto;
+    width: 200px;
+    height: 281px;
+    background-color: rgb(193, 193, 242);
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.darkClr{
+    background-color: rgb(128, 128, 250);
+}
+
+.darkestClr{
+    background-color: rgb(98, 98, 249);
+}
+
+.lightClr{
+    background-color: rgb(161, 161, 255);
+}
