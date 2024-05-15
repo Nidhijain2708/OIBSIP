@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.title{
+    height: 600px;
+    border: 1px solid black;
+    background: url("https://www.frontlist.in/storage/uploads/2019/08/apj.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0% 50%;
+    color: white;
+    font-weight: 900;
+    font-size: 80px;
+    text-align: center;
+}
+
+.titleText{
+    margin-top: 100px;
+}
+
+.header{
+    font-size: 40px;
+    font-weight: 500;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 10px;
+}
+
+.introLeft{
+    float: left;
+    width: 45%;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.introRight{
+    float: right;
+    width: 50%;
+}
+
+.clearfix{
+    clear: both;
+    display: table;
+}
+
+.intro{
+    margin: 20px;
+}
+
+.eduLeft{
+    float: left;
+    width: 50%;
+}
+
+.eduRight{
+    float: right;
+    width: 45%;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.edu{
+    margin: 20px;
+}
+
+.achieveText{
+    margin: 20px;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
