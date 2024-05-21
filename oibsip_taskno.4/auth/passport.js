@@ -10,7 +10,7 @@ passport.use(new LocalStrategy({
     passwordField: 'password'
 },
     async function (email, password, done) {
-        console.log("Here", email, password);
+        // console.log("Here", email, password);
         try{
             let user = await User.findOne({ username: email });
             if (!user) { return done(null, false); }

@@ -5,11 +5,12 @@ const PORT = 4444;
 const session = require('express-session');
 const passport = require('./auth/passport');
 const mongoose = require('mongoose');
+require('dotenv').config();
 
 app.set('view engine', 'hbs');
 app.use(express.urlencoded({ extended: true }));
 app.use(session({
-    secret: 'asdjbaskdadbaskdv',
+    secret: process.env.SESSION_SECRET,
     resave: false,
     saveUninitialized: true
 }));
@@ -25,7 +26,7 @@ app.use('/',require('./routes/login'));
 app.use('/signup',require('./routes/signup'))
 
 app.get('/profile',(req,res)=>{
-    console.log(req.user);
+    // console.log(req.user);
     res.render('profile',{
         username: req.user.username
     });
