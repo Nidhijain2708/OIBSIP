@@ -1,0 +1,17 @@
+.containerOfProfile{
+    margin: 20px 600px;
+}
+
+.nameShow{
+    color: purple;
+    font-size: 30px;
+    margin: 65px;
+}
+
+body{
+    background-color: thistle;
+}
+
+h1{
+    font-size: 30px;
+}
